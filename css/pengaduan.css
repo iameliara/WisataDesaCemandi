@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #004d99;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-group label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+.btn-primary {
+    background-color: #004d99;
+    border-color: #004d99;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+footer {
+    background-color: #004d99;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #004d99;
+}
+
+.lead {
+    color: #666666;
+}
+
+section#pengaduan {
+    background-color: #e6f7ff;
+    padding: 2rem 0;
+}
+
+.card-title {
+    color: #004d99;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+.btn-primary:hover {
+    background-color: #ffb300;
+    border-color: #ffb300;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kuliner</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/galeri.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-text {
+            font-family: 'Times New Roman', Times, serif;
+            color: white!important;
+            margin-left: 10px; /* Spasi antara logo dan tulisan */
+            font-size: 1.2em; /* Sesuaikan ukuran teks sesuai kebutuhan */
+        }
+        .logo {
+            width: 50px; /* Sesuaikan ukuran lebar logo */
+            height: auto; /* Pastikan proporsi tetap */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <<a class="navbar-brand" href="#top">
+                <img src="images/logo.png" class="logo" alt="Logo Cemandi" loading="lazy" style="width: 50px; height: auto;">
+                <span class="navbar-text">Tambak Cemandi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Kembali ke Halaman Utama</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="galeri" class="pb-4">
+        <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-alam-tab" data-toggle="pill" href="#pills-alam" role="tab" aria-controls="pills-alam" aria-selected="false">Kuliner</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-objek-wisata-tab" data-toggle="pill" href="#pills-objek-wisata" role="tab" aria-controls="pills-objek-wisata" aria-selected="true">Toko Bangunan</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-budaya-tab" data-toggle="pill" href="#pills-budaya" role="tab" aria-controls="pills-budaya" aria-selected="false">Perikanan</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-kesenian-tab" data-toggle="pill" href="#pills-kesenian" role="tab" aria-controls="pills-kesenian" aria-selected="true">Toko Kelontong</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-kuliner-tab" data-toggle="pill" href="#pills-kuliner" role="tab" aria-controls="pills-kuliner" aria-selected="false">Cafe Warkop</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-acara-tab" data-toggle="pill" href="#pills-acara" role="tab" aria-controls="pills-acara" aria-selected="false">Lainnya</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <!-- Galeri Kuliner -->
+                <div class="tab-pane fade show active" id="pills-alam" role="tabpanel" aria-labelledby="pills-alam-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>UMKM Kuliner</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri kuliner baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kuliner/terasi.jpeg" data-lightbox="galeri" data-title="alam1"><img src="images/kuliner/terasi.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>Pusat Agn Terasi</p>
+                                <p>No Telp: 081553174291</p>
+                                <p><a href="https://maps.google.com/?q=location1">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kuliner/ikan.jpg" data-lightbox="galeri" data-title="alam2"><img src="images/kuliner/ikan.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Resto Seafood Dony</p>
+                                <p>No Telp: 082134558900</p>
+                                <p><a href="https://maps.google.com/?q=location2">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kuliner/bandeng.jpg" data-lightbox="galeri" data-title="alam3"><img src="images/kuliner/bandeng.jpg" alt=""></a>
+                            <div class="info">
+                                <p>BANDENG PRESTO TRIO KWEK-KWEK</p>
+                                <p>No Telp: 089613152526</p>
+                                <p><a href="https://maps.google.com/?q=location3">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- galeri alam baris 2 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kuliner/bakaran.jpg" data-lightbox="galeri" data-title="alam4"><img src="images/kuliner/bakaran.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Bakaransf</p>
+                                <p>No Telp: 082335188089</p>
+                                <p><a href="https://maps.google.com/?q=location4">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kuliner/pangsit.jpg" data-lightbox="galeri" data-title="alam5"><img src="images/kuliner/pangsit.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Pangsit mie ayam Jakarta – pak Basori</p>
+                                <p>No Telp: 087872678753</p>
+                                <p><a href="https://maps.google.com/?q=location5">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri Objek Wisata -->
+                <div class="tab-pane fade" id="pills-objek-wisata" role="tabpanel" aria-labelledby="pills-objek-wisata-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>UMKM Toko Bangunan</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri objek-wisata baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/bangunan/hotama.png" data-lightbox="galeri" data-title="objek-wisata1"><img src="images/bangunan/hotama.png" alt=""></a>
+                            <div class="info">
+                                <p>Hotama Karya</p>
+                                <p>No Telp: 082340694434</p>
+                                <p><a href="https://maps.google.com/?q=location10">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/bangunan/jawara.jpg" data-lightbox="galeri" data-title="objek-wisata2"><img src="images/bangunan/jawara.jpg" alt=""></a>
+                            <div class="info">
+                                <p>TB. JAWARA</p>
+                                <p>No Telp: 081332432588</p>
+                                <p><a href="https://maps.google.com/?q=location11">Google Maps</a></p>
+                            </div>
+                        </div>
+					</div>
+				</div>
+
+                <!-- Galeri Budaya -->
+                <div class="tab-pane fade" id="pills-budaya" role="tabpanel" aria-labelledby="pills-budaya-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>UMKM Perikanan</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri budaya baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/perikanan/ikanasin.jpg" data-lightbox="galeri" data-title="budaya1"><img src="images/perikanan/ikanasin.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Distributor ikan Asin</p>
+                                <p>No Telp:08995622666</p>
+                                <p><a href="https://maps.google.com/?q=location19">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/perikanan/garam.jpg" data-lightbox="galeri" data-title="budaya2"><img src="images/perikanan/garam.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Suplier Garam “UD. Jaya Mulya” H.Afnan”</p>
+                                <p>No Telp: 087856571733</p>
+                                <p><a href="https://maps.google.com/?q=location20">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/perikanan/moro.jpg" data-lightbox="galeri" data-title="budaya3"><img src="images/perikanan/moro.jpg" alt=""></a>
+                            <div class="info">
+                                <p>UD. Moro Joyo Kalanganyar</p>
+                                <p>No Telp: 08193912178</p>
+                                <p><a href="https://maps.google.com/?q=location21">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri Kesenian -->
+                <div class="tab-pane fade" id="pills-kesenian" role="tabpanel" aria-labelledby="pills-kesenian-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>UMKM Toko Kelontong</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri kesenian baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kelontong/murah.png" data-lightbox="galeri" data-title="kesenian2"><img src="images/kelontong/murah.png" alt=""></a>
+                            <div class="info">
+                                <p>Murah Barokah Store</p>
+                                <p>No Telp: 085155115387</p>
+                                <p><a href="https://maps.google.com/?q=location29">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/kelontong/zeze.png" data-lightbox="galeri" data-title="kesenian3"><img src="images/kelontong/zeze.png" alt=""></a>
+                            <div class="info">
+                                <p>Toko Zeze</p>
+                                <p>No Telp: 081230152005</p>
+                                <p><a href="https://maps.google.com/?q=location30">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Galeri Kuliner -->
+                <div class="tab-pane fade" id="pills-kuliner" role="tabpanel" aria-labelledby="pills-kuliner-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>Cafe & Warkop</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri kuliner baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/cafe/rasya.jpeg" data-lightbox="galeri" data-title="kuliner1"><img src="images/cafe/rasya.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>Warkop Rasya</p>
+                                <p>No Telp: 085806328043</p>
+                                <p><a href="https://maps.google.com/?q=location37">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/cafe/yusna.jpeg" data-lightbox="galeri" data-title="kuliner2"><img src="images/cafe/yusna.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>Street cafe yusna</p>
+                                <p>No Telp: 081230152005</p>
+                                <p><a href="https://maps.google.com/?q=location38">Google Maps</a></p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <!-- Galeri Acara -->
+                <div class="tab-pane fade" id="pills-acara" role="tabpanel" aria-labelledby="pills-acara-tab">
+                    <div class="row mb-4 pt-4">
+                        <div class="col text-center">
+                            <h2>Lainnya</h2>
+                        </div>
+                    </div>
+
+                    <!-- galeri acara baris 1 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/lainnya/degan.jpeg" data-lightbox="galeri" data-title="acara1"><img src="images/lainnya/degan.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>Agen Degan</p>
+                                <p>No Telp: 083849559446</p>
+                                <p><a href="https://maps.google.com/?q=location46">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/lainnya/florist.jpg" data-lightbox="galeri" data-title="acara2"><img src="images/lainnya/florist.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Candysari florist</p>
+                                <p>No Telp: 082335188089</p>
+                                <p><a href="https://maps.google.com/?q=location47">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/lainnya/lpg.jpeg" data-lightbox="galeri" data-title="acara3"><img src="images/lainnya/lpg.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>Agen lpg zahra</p>
+                                <p>No Telp: 081615363380</p>
+                                <p><a href="https://maps.google.com/?q=location48">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- galeri acara baris 2 -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/lainnya/tomo.jpg" data-lightbox="galeri" data-title="acara4"><img src="images/lainnya/tomo.jpg" alt=""></a>
+                            <div class="info">
+                                <p>Bengkel Las Cak Tomo</p>
+                                <p>No Telp: 081615363380</p>
+                                <p><a href="https://maps.google.com/?q=location49">Google Maps</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a href="images/lainnya/ucup.jpeg" data-lightbox="galeri" data-title="acara5"><img src="images/lainnya/ucup.jpeg" alt=""></a>
+                            <div class="info">
+                                <p>bengkel kang mus “ucup”</p>
+                                <p>No Telp: 088235861415</p>
+                                <p><a href="https://maps.google.com/?q=location50">Google Maps</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <footer class="text-center text-light bg-dark p-2">
+        <p class="mt-3">Copyright &copy; 2020 by <a href="https://www.instagram.com/robertus988">Robertus</a></p>
+    </footer>
+</body>
+</html>

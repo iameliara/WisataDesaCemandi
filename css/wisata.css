@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0; /* Warna latar belakang halaman */
+    color: #333; /* Warna teks */
+    padding-top: 80px; /* Menyesuaikan dengan tinggi navbar */
+}
+
+.navbar {
+    background-color: #ffffff; /* Warna latar belakang navbar */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan bawah navbar */
+}
+
+.navbar-brand img {
+    width: 300px; /* Lebar logo */
+    height: auto; /* Tinggi disesuaikan secara proporsional */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Posisi menu navigasi ke kanan */
+}
+
+.navbar-nav .nav-link {
+    color: #555; /* Warna teks menu */
+    transition: color 0.3s, transform 0.3s; /* Transisi untuk warna dan transformasi */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8c291; /* Warna saat hover */
+    transform: translateY(-3px); /* Efek menggeser ke atas saat hover */
+}
+
+#pills-tab .nav-link {
+    color: #555; /* Warna teks tab */
+    border-radius: 20px 20px 0 0; /* Memuluskan sudut atas tab */
+    margin-right: 10px; /* Jarak antar tab */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Warna latar belakang tab non-aktif */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#pills-tab .nav-link:hover {
+    background-color: #d1d8e0; /* Warna latar belakang tab saat hover */
+    color: #333;
+}
+
+#pills-tab .nav-link.active {
+    background: linear-gradient(135deg, #4b6584, #2c3e50); /* Warna latar belakang tab aktif dengan gradien */
+    color: #ffffff; /* Warna teks tab aktif */
+}
+
+#pills-tabContent {
+    background-color: #ffffff; /* Warna latar belakang konten tab */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek 3D */
+}
+
+.tab-pane {
+    padding: 20px 0; /* Ruang di dalam tab konten */
+}
+
+.tab-pane h2 {
+    color: #4b6584; /* Warna judul tab */
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Menggunakan font yang berbeda untuk judul */
+}
+
+.row {
+    margin-bottom: 20px; /* Jarak antar baris */
+}
+
+.col-md-4 {
+    transition: transform 0.3s, filter 0.3s; /* Animasi saat hover */
+}
+
+.col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Memuluskan sudut gambar */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk gambar */
+    transition: transform 0.3s, filter 0.3s; /* Menambahkan transisi untuk animasi hover */
+}
+
+.col-md-4 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.05); /* Efek memperbesar saat hover */
+}
+
+.info {
+    background-color: #ffffff; /* Warna latar belakang info */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk info */
+    text-align: justify; /* Format teks rata kanan kiri */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transisi untuk efek hover */
+}
+
+.info:hover {
+    background-color: #f8f9fa; /* Warna latar belakang saat hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+.info p {
+    color: #555; /* Warna teks info */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.info p a {
+    color: #3867d6; /* Warna link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.info p a:hover {
+    color: #f8c291; /* Warna saat hover */
+    text-decoration: underline;
+}
